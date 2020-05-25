@@ -14,10 +14,30 @@ input{
     outline: none;
     padding-left: 30px;
 }
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 0 10px;
+    color: rgb(99, 98, 98);
+}
+.nav{
+    display: block;
+}
+.nav-btn{
+    background-color: #4487FA;
+    border-style: none;
+    color: white;
+    font-size: 13px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+}
 .logo{
     display: block;
     margin: auto;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .search{
     display: block;
@@ -48,4 +68,11 @@ input{
 }
 .access{
     text-align: center;
+}
+.in-icon i{
+    position: absolute;
+    padding-left: 477px;
+    padding-top: 17px;
+    font-size: 1.1rem;
+    color: lightgrey;
 }
