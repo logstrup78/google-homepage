@@ -1,31 +1,38 @@
-body{
+body {
     margin: 0 0;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-p{
+
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
-input{
+
+input {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     outline: none;
-    padding-left: 30px;
+    padding-left: 70px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-li{
+
+li {
     display: inline;
     padding: 0 10px;
     color: rgb(99, 98, 98);
 }
-.nav{
+
+.nav {
     display: block;
 }
-.nav-btn{
+
+.nav-btn {
     background-color: #4487FA;
     border-style: none;
     color: white;
@@ -34,12 +41,14 @@ li{
     height: 30px;
     font-weight: bold;
 }
-.logo{
+
+.logo {
     display: block;
     margin: auto;
     padding-top: 150px;
 }
-.search{
+
+.search {
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -50,15 +59,18 @@ li{
     border-width: 1px;
     border-color: lightgrey;
 }
-.search:hover{
+
+.search:hover {
     box-shadow: 1px 1px 3px lightgrey;
 }
-.buttons{
+
+.buttons {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 25px;
 }
-.search-btn{
+
+.search-btn {
     height: 35px;
     width: 150px;
     border-style: none;
@@ -66,13 +78,16 @@ li{
     color: rgb(108, 124, 139);
     font-size: 16px;
 }
-.access{
+
+.access {
     text-align: center;
 }
-.in-icon i{
+
+.fa-search {
+    
     position: absolute;
-    padding-left: 477px;
-    padding-top: 17px;
+    padding-top: 16px;
+    padding-left: 450px;
     font-size: 1.1rem;
     color: lightgrey;
 }
